@@ -1,6 +1,6 @@
 {
     "name": "@rp-gittix/common",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "This is a common library shared by all the microservices by GitTix project. Contains all custom errors and middlewares as of now",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
@@ -9,7 +9,8 @@
     ],
     "scripts": {
         "clean": "del-cli ./build/*",
-        "build": "yarn clean && tsc"
+        "build": "yarn clean && tsc",
+        "publish": "git add . git commit -m\"Updates\" && yarn version --patch && yarn build && yarn publish"
     },
     "license": "MIT",
     "author": {
