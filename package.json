@@ -2,12 +2,23 @@
     "name": "@rp-gittix/common",
     "version": "1.0.0",
     "description": "This is a common library shared by all the microservices by GitTix project. Contains all custom errors and middlewares as of now",
-    "main": "index.js",
-    "scripts": {},
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "files": [
+        "build/**/*"
+    ],
+    "scripts": {
+        "clean": "del-cli ./build/*",
+        "build": "yarn clean && tsc"
+    },
     "license": "MIT",
     "author": {
         "email": "pandaronit25@gmail.com",
         "name": "Ronit Panda",
         "url": "https://ronit.pro"
+    },
+    "devDependencies": {
+        "del-cli": "^5.0.0",
+        "typescript": "^4.9.3"
     }
 }
