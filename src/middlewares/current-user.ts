@@ -33,5 +33,5 @@ export const currentUser = (
     } catch (error) {
         console.error(error);
     }
-    return next();
+    next();
 };
