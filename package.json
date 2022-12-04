@@ -10,7 +10,7 @@
     "scripts": {
         "clean": "del-cli ./build/*",
         "build": "yarn clean && tsc",
-        "publish": "git add . git commit -m\"Updates\" && yarn version --patch && yarn build && yarn publish"
+        "publish": "git add . && git commit -m\"Updates\" && yarn version --patch && yarn build && yarn publish"
     },
     "license": "MIT",
     "author": {
