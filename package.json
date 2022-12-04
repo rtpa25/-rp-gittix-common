@@ -1,0 +1,13 @@
+{
+    "name": "@rp-gittix/common",
+    "version": "1.0.0",
+    "description": "This is a common library shared by all the microservices by GitTix project. Contains all custom errors and middlewares as of now",
+    "main": "index.js",
+    "scripts": {},
+    "license": "MIT",
+    "author": {
+        "email": "pandaronit25@gmail.com",
+        "name": "Ronit Panda",
+        "url": "https://ronit.pro"
+    }
+}
