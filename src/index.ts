@@ -40,3 +40,11 @@ export * from './events/ticket-created-event';
 export * from './events/ticket-updated-evemt';
 
 /*=====  End of Events  ======*/
+
+/*=============================================
+=            Types            =
+=============================================*/
+
+export * from './events/types/order-status';
+
+/*=====  End of Types  ======*/
