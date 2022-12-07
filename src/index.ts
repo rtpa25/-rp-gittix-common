@@ -37,7 +37,9 @@ export * from './streaming/subjects';
 =============================================*/
 
 export * from './events/ticket-created-event';
-export * from './events/ticket-updated-evemt';
+export * from './events/ticket-updated-event';
+export * from './events/order-created-event';
+export * from './events/order-cancelled-event';
 
 /*=====  End of Events  ======*/
 
