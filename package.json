@@ -1,6 +1,6 @@
 {
     "name": "@rp-gittix/common",
-    "version": "1.0.19",
+    "version": "1.0.20",
     "description": "This is a common library shared by all the microservices by GitTix project. Contains all custom errors and middlewares as of now",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
