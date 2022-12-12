@@ -10,5 +10,6 @@ export interface TicketCreatedEvent {
         userId: string;
         creator: string;
         imageUrl: string;
+        description: string;
     };
 }

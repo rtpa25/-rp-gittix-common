@@ -10,6 +10,7 @@ export interface TicketUpdatedEvent {
         userId: string;
         creator: string;
         imageUrl: string;
+        description: string;
         orderId?: string;
     };
 }
